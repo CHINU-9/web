@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(43, 47, 44);
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg,#8ce0ea,#1802a7 );
+    color: rgb(172, 250, 243);
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: #f6f6f8;
+    color: rgb(2, 0, 0);
+    padding: 10px 25px;
+    height: 30px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 15px;
+    font-size: 18px;
+
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background: #f6f6f8;
+    border-radius: 20%;
+    
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+
+}
+
+.search button:hover{
+    border: 2px solid black;
+    
+    background: #f6f6f8;
+    border-radius: 25%;
+    
+    height: 40px;
+    width: 47px;
+    cursor: pointer;
+
+}
+.search button img{
+    width: 16px;
+}
+.weather-logo{
+    width: 170px;
+    margin-top: 30px;
+   
+
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+    
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 50px;
+}
+.col{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-inline-start: -123px;
+    margin-inline-end: -151px;
+
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+    
+
+}
+.humidity, .wind{
+    font-size: 30px;
+    margin-top: 16px;
+}
+
+
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 15px;
+    display: none;
+}
+.error p{
+    color: #070229;
+}
+
+
+.middlecontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weather-icon{
+    display: none;
+}
+.m{
+    width: 288px;
+}
